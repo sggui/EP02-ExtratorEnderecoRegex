@@ -45,6 +45,11 @@ class Extrator
     regex = /^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ0-9\s.]+/
     @nome = sub.match(regex).to_s
     sub = sub.gsub(regex, '')
+
+    @tipo = 'N/A' if @tipo.to_s.empty?
+    @nome = 'N/A' if @nome.to_s.empty?
+    @nume = 'S/N' if @nume.to_s.empty?
+    @nome = limparComeco(@nome) # Garante que o começo esteja limpo para @nome também.
   end
 
   def complemento(input, regex)
@@ -74,6 +79,7 @@ class Extrator
               @bairro
             end
     bairro
+    @bairro = 'N/A' if @bairro.to_s.empty? # Adicionado para garantir o valor padrão.
   end
 
   def cidade
@@ -85,12 +91,15 @@ class Extrator
 
     @cidade = @bairro
     @bairro = 'N/A'
+    @cidade = 'N/A' if @cidade.to_s.empty?
   end
 
   def estado
     regex = /(AC|AL|AP|AM|BA|CE|DF|ES|GO|MA|MT|MS|MG|PA|PB|PR|PE|PI|RJ|RN|RS|RO|RR|SC|SP|SE|TO)/
     @estado = @endereco.match(regex)
     @endereco = @endereco.gsub(regex, '')
+
+    @estado = 'N/A' if @estado.nil? || @estado.to_s.empty?
   end
 
   def cep
