@@ -1,5 +1,12 @@
-Endereço de LFA TESTE (Grupo: Guilherme Guimarães e Gustavo Piroupo): R. Alice dos Santos Peixe, 675 - Jardim Selma, São Paulo - SP, 04441-140. Se tiver extraido certo, o EP deu boa.
+Olá! O nosso grupo é formado por Guilherme Guimarães e Gustavo Piroupo. Esse é o EP02 de LFA. Esse é o nosso endereço de teste:
+Rua Três Rios, 126 - Bom Retiro, São Paulo - SP, 01123-000
 
-URLs de texte:
+URLs de teste:
 
-Criar ainda URLS. Criado apenas o texto.
+https://www.google.com/maps/place/Senac+Na%C3%A7%C3%B5es+Unidas/@-23.6698233,-46.7017363,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce515bb231b5ed:0x327b78892baef8e6!8m2!3d-23.6698282!4d-46.6991614!16s%2Fg%2F11hz9r7dzb?entry=ttu
+
+https://www.google.com/maps/place//data=!4m2!3m1!1s0x94ce4fcf31e6a067:0x97af9170b3746273?source=g.page.m._
+
+https://www.google.com/maps/place/Nava+Technology+for+Business/@-23.5934329,-46.6912812,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce5733ea9a05d3:0x772acfa78fc6083e!8m2!3d-23.5934378!4d-46.6887063!16s%2Fg%2F11h1sg8rd?entry=ttu
+
+https://www.google.com.br/maps/place/Shopping+Leblon/@-22.9824654,-43.2194541,17z/data=!3m1!4b1!4m6!3m5!1s0x9bd5a9116b33af:0x7695a7dc0c0dc4a8!8m2!3d-22.9824704!4d-43.2168792!16s%2Fm%2F042zgz4?entry=ttu
